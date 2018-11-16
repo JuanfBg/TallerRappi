@@ -22,7 +22,7 @@ public class SupermercadoTest {
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
         String s;
-        System.out.println("1. seleccione tipo de fila\n1.1 unica fila\n1.2 multiples filas");
+        System.out.println(" seleccione tipo de fila\n1 unica fila\n2 multiples filas");
         s = in.readLine();
         if (s.equals("1")) {
             fila = new UnicaFila();
